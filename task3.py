@@ -2,7 +2,7 @@ a=int(input("enter a number"))
 b=input("enter a operator + - / * ")
 c=int(input("enter a number"))
 if b=="+":
-    print(f"result {a+c}")
+    print(a+c)
 elif b=="-":
     print(f"result {a-c}")
 elif b=="*":

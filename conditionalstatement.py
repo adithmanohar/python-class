@@ -30,4 +30,17 @@ elif a<0:
 else: 
     print("a is zero")
    ''' 
-   
+'''a=int(input("enter a number"))
+if a==0:
+    print(f" {a} is 0")
+elif a%2!=0:
+    print(f" {a} is odd")
+else :
+    print(f" {a} is even")
+'''
+a=input("enter name")
+b=int(input("enter age"))
+print(f"my name is {a} and i am {b} years old") 
+
+
+
