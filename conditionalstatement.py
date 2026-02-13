@@ -38,9 +38,9 @@ elif a%2!=0:
 else :
     print(f" {a} is even")
 '''
-a=input("enter name")
+"""a=input("enter name")
 b=int(input("enter age"))
 print(f"my name is {a} and i am {b} years old") 
-
+"""
 
 

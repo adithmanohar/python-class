@@ -84,10 +84,29 @@ a=2.2   #float
 b=2.2
 print(a is b)'''
 
+#ternary operator
+#method1
+"""a=4
+if a>=5:
+    print("pass")
+else:
+    print("fail")"""
+#method 2
+""" if-? else-: ternary operator"""
+a=4
+b="pass" if a>5 else "fail"
+print(b)
+
+   #  "OR"
+print("pass" if a>5 else "fail")
+
+
+
+
 #  Q find average of 3 numbers
 #operators precedence
-a=1
+'''a=1
 b=2
 c=3
 sum=a+b+c
-print(sum/3)
+print(sum/3)'''
