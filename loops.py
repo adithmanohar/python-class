@@ -7,10 +7,15 @@ print(a[3])"""
 """for i in range(0,3):
     print(a[i])"""
 #.Write a program to calculate the sum of numbers from 1 to 100 using a for loop
-sum=0
+"""sum=0
 for i in range(0,101):
     
     sum=sum+i
 print(sum)
-
+"""
 #write a program to print sum of even numbers from 0 to 100?using for loop
+sum=0
+for i in range(1,101):
+    if i %2==0:
+        sum+=i
+print(sum)
