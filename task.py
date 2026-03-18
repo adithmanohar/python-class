@@ -22,3 +22,12 @@ new_s=text.replace("Programming","language")
 print(new_s) #replace
 
 print(new_s.upper()) #uppercase
+
+
+
+for i in range(0,4):
+    for j in range(i):
+        if(i==3):
+            break
+        print("*",end=" ")
+    print("*")      

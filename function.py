@@ -152,3 +152,70 @@ a=[1,2,3,4,5,6,7,8,9,10]
 abc=reduce(lambda x,y:x+y,a)
 print(abc)
 '''
+
+#recursion(fuction e veendum veendum call cheya)The problem can be divided into smaller subproblems of the same type
+
+
+#define a function named factorial with parameter n
+"""
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return  n* factorial(n-1)
+print(factorial(5))
+"""
+#fibonacci 
+"""
+def fibonacci(n):
+  if n<=1:
+    return n
+  else:
+        return fibonacci(n-1)+fibonacci(n-2)
+print(fibonacci(4))
+"""
+# print series fibboanic
+"""
+def fibonacci(n):
+    if n<=1:
+        return n
+    else:
+        return fibonacci(n-1)+fibonacci(n-2)
+a=int(input("enter a number"))
+for i in range(a):
+ print(fibonacci(i),end=" ")
+
+ """
+
+#write a program to print the sum of the numbers in the list using recursion
+"""
+def sum (n):
+    if not n:
+        return 0
+    return n[0]+sum(n[1:])
+print( sum([1,2,3,4,5]))
+"""
+
+#tail Recursion
+"""
+def tailfactorial (n,accumulator=1):
+    if n==0 or n==1:
+        return accumulator
+    else:
+        return tailfactorial(n-1,accumulator*n)
+print(tailfactorial(5))
+"""
+#functionscope
+
+x=10 #(global scope)
+def outerfunction():
+    x=5#(enclosing scope)
+    print(x)
+    
+    def innerfunction():
+        x=2 #(local scope)
+        print(x)
+    innerfunction() 
+
+outerfunction()
+print(x)       
