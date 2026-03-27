@@ -13,6 +13,23 @@ for i in range(0,101):
     sum=sum+i
 print(sum)
 """
+
+#Write a program to check whether a number is prime or not.
+"""
+num=int(input("Enter a number:"))
+if num<=1:
+    print("Not a prime number")
+else:
+    for i in range(2,int(num**0.5)+1):
+        if num%i==0:
+            print("Not a prime number")
+            break
+    else:
+        print("Prime number")
+
+"""
+
+
 #write a program to print sum of even numbers from 0 to 100?using for loop
 """sum=0
 for i in range(1,101):
